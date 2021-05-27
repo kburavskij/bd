@@ -5,7 +5,6 @@ import os
 from glob import glob
 import numpy as np
 import pandas as pd
-import librosa
 from librosa.core import resample, to_mono
 from tqdm import tqdm
 import wavio
@@ -127,7 +126,7 @@ if __name__ == '__main__':
     parser.add_argument('--sr', type=int, default=16000,
                         help='rate to downsample audio')
 
-    parser.add_argument('--fn', type=str, default='bitch.wav',
+    parser.add_argument('--fn', type=str, default='a.wav',
                         help='file to plot over time to check magnitude')
     parser.add_argument('--threshold', type=str, default=20,
                         help='threshold magnitude for np.int16 dtype')

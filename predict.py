@@ -1,4 +1,5 @@
 from tensorflow.keras.models import load_model
+import matplotlib.pyplot as plt
 from clean import downsample_mono, envelope
 from kapre.time_frequency import STFT, Magnitude, ApplyFilterbank, MagnitudeToDecibel
 from sklearn.preprocessing import LabelEncoder
@@ -45,11 +46,23 @@ def make_prediction(args):
         y_mean = np.mean(y_pred, axis=0)
         y_pred = np.argmax(y_mean)
         real_class = os.path.dirname(wav_fn).split('/')[-1]
-        print('Actual class: {}, Predicted class: {}'.format(real_class, classes[y_pred-1]))
+        # print('Actual class: {}, Predicted class: {}'.format(real_class, classes[y_pred]))
+        if real_class != classes[y_pred]:
+            print('Actual class: {}, Predicted class: {}'.format(real_class, classes[y_pred]))
+        #     results.append(np.array([y_mean, real_class, classes[y_pred], str('False')] ))
+        # else:
+        #     results.append(np.array([y_mean, real_class, classes[y_pred], str('True') ]))
+        #     print('Actual class: {}, Predicted class: {}'.format(real_class, classes[y_pred]))
         results.append(y_mean)
+        # results.extend([real_class, classes[y_pred]])
+        # print(y_mean)
 
     np.save(os.path.join('logs', args.pred_fn), np.array(results))
 
+    data_array = np.load(os.path.join('logs', args.pred_fn) + '.npy', allow_pickle=True)
+    # print(data_array)
+    data = pd.DataFrame(data_array)
+    # print(data_array)
 
 if __name__ == '__main__':
 

@@ -1,0 +1,134 @@
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: a, Predicted class: a
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: b, Predicted class: b
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: b
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: c, Predicted class: c
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+Actual class: d, Predicted class: d
+                                                     0  1  2     3
+0    [0.98829424, 0.0007947466, 0.0005408334, 0.010...  a  a  True
+1    [0.97446555, 0.010712973, 0.003367677, 0.01145...  a  a  True
+2    [0.98829424, 0.0007947466, 0.0005408334, 0.010...  a  a  True
+3    [0.97005075, 0.0021568711, 0.0040258667, 0.023...  a  a  True
+4    [0.94381154, 0.03721451, 0.0009262324, 0.01804...  a  a  True
+..                                                 ... .. ..   ...
+115  [0.006792957, 0.011166551, 0.0018627094, 0.980...  d  d  True
+116  [0.0007144734, 0.000107438354, 0.0070421374, 0...  d  d  True
+117  [0.0007144734, 0.000107438354, 0.0070421374, 0...  d  d  True
+118  [0.0007144734, 0.000107438354, 0.0070421374, 0...  d  d  True
+119  [0.006792957, 0.011166551, 0.0018627094, 0.980...  d  d  True
+
+[120 rows x 4 columns]
